@@ -1,0 +1,28 @@
+#jumbotron-title {
+    font-size: 300%;
+    color:white;
+    position: left;
+    margin-top: 140px;
+
+}
+
+.jumbotron {
+    font-family: 'Fleur De Leah', cursive;
+    margin:0;
+    background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
+    background-position: static;
+    background-position-y: 60%;
+    background-size: cover;
+    min-height: 380px;
+    
+}
+
+h1,h2,h3 {
+    font-family: 'Fleur De Leah', cursive;
+}
+
+.navbar {
+    background-color: #381d08
+}
+
+
