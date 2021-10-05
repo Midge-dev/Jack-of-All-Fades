@@ -1,20 +1,29 @@
-#jumbotron-title {
-    font-size: 300%;
-    color:white;
-    position: left;
+#hero-title {
+    font-size: 320%;
+    color:#e5d5c0;
     margin-top: 140px;
-
 }
 
 .jumbotron {
     font-family: 'Fleur De Leah', cursive;
     margin:0;
     background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
-    background-position: static;
     background-position-y: 60%;
     background-size: cover;
-    min-height: 380px;
+    min-height: 300px;
     
+}
+
+@media (max-width: 1600px) {
+    .jumbotron {
+        background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-lg.jpg);
+    }
+}
+
+@media (max-width: 800px) {
+    .jumbotron {
+        background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-md.jpg);
+    }
 }
 
 h1,h2,h3 {
@@ -25,4 +34,10 @@ h1,h2,h3 {
     background-color: #381d08
 }
 
+.main-content {
+    background-color: #e5d5c0;
+}
 
+.footer {
+    background-color: #381d08;
+}
