@@ -1,43 +1,90 @@
-#hero-title {
-    font-size: 320%;
-    color:#e5d5c0;
-    margin-top: 140px;
-}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+} 
 
-.jumbotron {
-    font-family: 'Fleur De Leah', cursive;
-    margin:0;
-    background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
-    background-position-y: 60%;
-    background-size: cover;
-    min-height: 300px;
-    
-}
-
-@media (max-width: 1600px) {
-    .jumbotron {
-        background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-lg.jpg);
-    }
-}
-
-@media (max-width: 800px) {
-    .jumbotron {
-        background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-md.jpg);
-    }
-}
-
-h1,h2,h3 {
-    font-family: 'Fleur De Leah', cursive;
+.box {
+    width: 100%;
+    height: 800px;
 }
 
 .navbar {
-    background-color: #381d08
+    background-color: black;
+    
 }
 
-.main-content {
-    background-color: #e5d5c0;
+.section-1 {
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
-.footer {
-    background-color: #381d08;
+
+
+.section-2 {
+ background-color: black;
+}
+
+.section-3 {
+ height: 100vh;
+    background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.section-4 {
+ background-color: black;
+}
+
+.section-5 {
+ height: 100vh;
+    background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;   
+}
+
+.section-6 {
+    background-color: black;
+}
+
+.main-title {
+    font-family: 'Fleur De Leah', cursive;
+    color: whitesmoke;
+    font-size: 1000%; 
+    padding-left: 650px;
+    padding-top: 400px;
+    text-shadow: 5px 5px black;
+}
+
+.nav-title {
+    font-family: 'Fleur De Leah', cursive;
+    color: white;
+    font-size: 250%;
+    ;
+}
+
+.navbar-nav {
+    padding-top: 10px;
+}
+
+.secondTitle {
+    font-family: 'Fleur De Leah', cursive;
+    color: whitesmoke;
+    font-size: 1000%; 
+    padding-left: 25px;
+    padding-top: 800px;
+    text-shadow: 5px 5px black
+}
+
+.thirdTitle {
+    font-family: 'Fleur De Leah', cursive;
+    color: whitesmoke;
+    font-size: 1000%; 
+    padding-left: 575px;
+    padding-top: 800px;
+    text-shadow: 5px 5px black;
 }
