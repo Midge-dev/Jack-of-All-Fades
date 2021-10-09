@@ -23,7 +23,29 @@
 
 }
 
+@media (max-width: 2500px) {
+    .section-1 {
+        background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-lg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
 
+@media (max-width: 800px) {
+    .section-1 {
+        background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-md.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-1 {
+        background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-sm.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
 
 .section-2 {
  background-color: black;
@@ -34,6 +56,30 @@
     background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
     background-attachment: fixed;
     background-size: cover;
+}
+
+@media (max-width: 2500px) {
+    .section-3 {
+        background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash-lg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .section-3 {
+        background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash-md.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-3 {
+        background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash-sm.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .section-4 {
@@ -47,25 +93,69 @@
     background-size: cover;   
 }
 
+@media (max-width: 2500px) {
+    .section-5 {
+        background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-lg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 800px) {
+    .section-5 {
+        background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-md.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .section-5 {
+        background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-sm.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 .section-6 {
     background-color: black;
 }
 
 .main-title {
     font-family: 'Fleur De Leah', cursive;
+    font-size: 8vw;
+    position: absolute;
+    top: 40%;
+    left: 22%;
     color: whitesmoke;
-    font-size: 1000%; 
-    padding-left: 650px;
-    padding-top: 400px;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 2px black;
 }
+
+@media screen and (max-width: 1600px) {
+    .main-title {
+        font-size: 10vw;
+        position: absolute;
+        top: 40%;
+        left: 15%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .main-title {
+        font-size: 10vw;
+        position: absolute;
+        top: 40%;
+        left: 15%;
+    }
+}
+
 
 .nav-title {
     font-family: 'Fleur De Leah', cursive;
     color: white;
-    font-size: 250%;
-    ;
+    font-size: 200%;
 }
+
 
 .navbar-nav {
     padding-top: 10px;
@@ -73,18 +163,58 @@
 
 .secondTitle {
     font-family: 'Fleur De Leah', cursive;
+    font-size: 5vw;
+    padding-top: 25%;
+    padding-left: 5%;
     color: whitesmoke;
-    font-size: 1000%; 
-    padding-left: 25px;
-    padding-top: 800px;
-    text-shadow: 5px 5px black
+    text-shadow: 5px 1px black;
+}
+
+@media screen and (max-width: 1024px), 
+       screen and (max-height: 600px) {
+    .secondTitle {
+        font-size: 3vw;
+        padding-top: 15%;
+        padding-left: 1%;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 2500px) {
+    .secondTitle {
+        font-size: 10vw;
+        padding-top: 30%;
+        padding-left: 22%;
+    }
 }
 
 .thirdTitle {
     font-family: 'Fleur De Leah', cursive;
+    font-size: 5vw;
+    padding-top: 25%;
+    padding-left: 5%;
     color: whitesmoke;
-    font-size: 1000%; 
-    padding-left: 575px;
-    padding-top: 800px;
-    text-shadow: 5px 5px black;
+    text-shadow: 5px 1px black;
+}
+
+@media screen and (max-width: 1600px) {
+    .thirdTitle {
+        font-size: 8vw;
+        padding-top: 30%;
+        padding-left: 20%;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .thirdTitle {
+        font-size: 12vw;
+        padding-top: 75%;
+        padding-left: 0%;
+        text-align: center;
+    }
 }
