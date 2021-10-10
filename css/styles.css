@@ -9,9 +9,29 @@
     height: 800px;
 }
 
+
+
 .navbar {
     background-color: black;
     
+}
+
+.jumbotron {
+    background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-lg.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position-y: center;
+    margin: 0;
+    
+}
+
+#jumbotron-title {
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 6vw;
+    color: whitesmoke;
+    text-shadow: 5px 2px black;
+    text-align: center;
+    padding-top: 5%;
 }
 
 .section-1 {
@@ -217,4 +237,9 @@
         padding-left: 0%;
         text-align: center;
     }
+}
+
+.bookBox {
+    width: 100%;
+    height: 1000px;
 }
