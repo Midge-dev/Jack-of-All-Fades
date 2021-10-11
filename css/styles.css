@@ -34,55 +34,6 @@
     padding-top: 5%;
 }
 
-/* .main-btn {
-    margin-top: 30%;
-}
-
-@media screen and (max-width: 319px) {
-    .main-btn {
-        margin-top: 50vh;
-    }
-}
-
-@media screen and (min-width: 320px) and (max-width: 480px) {
-    .main-btn {
-        margin-top: 50vh;
-    }
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .main-btn {
-        margin-top: 90%;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 900px) {
-    .main-btn {
-        margin-top: 70%;
-    }
-}
-
-@media screen and (min-width: 901px) and (max-width: 1024px) {
-    .main-btn {
-        margin-top: 70%;
-    }
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .main-btn {
-        margin-top: 45%;
-    }
-}
-
-@media screen and (min-width: 1201px) {
-    .main-btn {
-        margin-top: 45%;
-    }
-} */
-
-    
-
-
 .section-1 {
     background-size: cover;
     background-position: center;
@@ -90,71 +41,26 @@
     height: 100vh;
     background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
     background-attachment: fixed;
-    
-
 }
 
 #titleContainer {
     min-height: 100vh;
 }
 
-/* @media (max-width: 2500px) {
-    .section-1 {
-        background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-lg.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-} */
-
-/* @media (max-width: 800px) {
-    .section-1 {
-        background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-md.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-}
-
-@media (max-width: 500px) {
-    .section-1 {
-        background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-sm.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-} */
-
 .section-2 {
  background-color: black;
 }
 
 .section-3 {
- height: 100vh;
     background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
     background-attachment: fixed;
+}
+
+.section {
     background-size: cover;
-}
-
-@media (max-width: 2500px) {
-    .section-3 {
-        background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash-lg.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-}
-
-@media (max-width: 800px) {
-    .section-3 {
-        background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash-md.jpg);
-        background-size: cover;
-        background-position: center;
-    }
-}
-
-@media (max-width: 500px) {
-    .section-3 {
-        background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash-sm.jpg);
-        background-size: cover;
-        background-position: center;
-    }
+    background-position: center;
+    max-width: 100%;
+    height: 100vh;
 }
 
 .section-4 {
@@ -162,10 +68,7 @@
 }
 
 .section-5 {
- height: 100vh;
-    background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg);
-    background-attachment: fixed;
-    background-size: cover;   
+    background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg); 
 }
 
 @media (max-width: 2500px) {
@@ -198,54 +101,18 @@
 
  .main-title {
     font-family: 'Fleur De Leah', cursive;
-    font-size: 8vw;
+    font-size: 36px;
     
     
     color: whitesmoke;
     text-shadow: 5px 2px black;
 } 
 
-
-/* @media screen and (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 500px) {
     .main-title {
-        font-size: 10vw;
-        position: absolute;
-        margin-top: 1vh;
+        font-size: 8vw;
     }
 }
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-    .main-title {
-        font-size: 10vw;
-        position: absolute;
-        margin-top: 1vh;
-    }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-    .main-title {
-        font-size: 10vw;
-        position: absolute;
-        margin-top: 1vh;
-    }
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1200px) {
-    .main-title {
-        font-size: 10vw;
-        position: absolute;
-        margin-top: 1vh;
-    }
-}
-
-@media screen and (min-width: 1201px) {
-    .main-title {
-        font-size: 10vw;
-        position: absolute;
-        margin-top: 1vh;
-    }
-} */ 
-
 
 .nav-title {
     font-family: 'Fleur De Leah', cursive;
@@ -258,62 +125,29 @@
     padding-top: 10px;
 }
 
-.secondTitle {
-    font-family: 'Fleur De Leah', cursive;
-    font-size: 5vw;
-    padding-top: 25%;
-    padding-left: 5%;
+.titles {
     color: whitesmoke;
     text-shadow: 5px 1px black;
+    font-family: 'Fleur De Leah', cursive;
+    font-size: 36px;
+
 }
 
-@media screen and (max-width: 1024px), 
-       screen and (max-height: 600px) {
-    .secondTitle {
-        font-size: 3vw;
-        padding-top: 15%;
-        padding-left: 1%;
+@media (min-width: 500px) {
+    .titles {
+        font-size: 100px;
+
     }
 }
 
-
-
-
-
-@media screen and (max-width: 2500px) {
-    .secondTitle {
-        font-size: 10vw;
-        padding-top: 30%;
-        padding-left: 22%;
-    }
+.section div {
+    min-height: 100vh;
 }
 
 .thirdTitle {
     font-family: 'Fleur De Leah', cursive;
-    font-size: 5vw;
-    padding-top: 25%;
-    padding-left: 5%;
     color: whitesmoke;
     text-shadow: 5px 1px black;
-}
-
-@media screen and (max-width: 1600px) {
-    .thirdTitle {
-        font-size: 8vw;
-        padding-top: 30%;
-        padding-left: 20%;
-    }
-}
-
-
-
-@media screen and (max-width: 800px) {
-    .thirdTitle {
-        font-size: 12vw;
-        padding-top: 75%;
-        padding-left: 0%;
-        text-align: center;
-    }
 }
 
 .bookBox {
