@@ -69,6 +69,7 @@
 .footerLink {
     font-family: 'Special Elite', cursive;
     font-size: 20px;
+    color: whitesmoke;
     
 }
 
@@ -76,6 +77,9 @@ a:hover, a:active, a:link, a:visited {
     color:whitesmoke;
   }
 
+  .btn-social-icon {
+      color: whitesmoke;
+  }
 
 .section-5 {
     background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg); 
