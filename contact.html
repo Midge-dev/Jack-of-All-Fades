@@ -2,26 +2,23 @@
 <html lang="en">
   <head>
     <!--Required Meta tags always come first-->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!--Bootstrap CSS-->
     <link rel="icon" type="image/png" href="/img/Barbers-Chair-25-white.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/css/styles.css" />
 
     <title>Jack of All Fades</title>
-  </head>
+</head>
 
   <body>
     <div class="modal fade" id="bookFlow" tabindex="-1" role="dialog">
@@ -106,20 +103,42 @@
     </nav>
 
     <!--PAGE CONTENT-->
+    <div></div>
     <h1>Contact/Booking Page</h1>
     <button class="btn btn-danger" data-toggle="modal" data-target="#bookFlow">
       Book Now
     </button>
 
-
-
-    <!-- Start Square Appointments Embed Code -->
-
-
-    <!-- End Square Appointments Embed Code -->
-
     <!--STATIC FOOTER-->
-    <footer></footer>
+    <footer class="footer">
+      <div class="container">
+          <div class="row d-flex justify-content-center align-items-center">
+              <div class="col-2 col-sm-2 offset-1">
+                      <ul class="list-unstyled footerLink">
+                          <br>
+                          <li><a href="#">Home</a></li>
+                          <li><a href="services.html">Services</a></li>
+                          <li><a href="gallery.html">Gallery</a></li>
+                          <li><a href="aboutus.html">About</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                      </ul>
+              </div>
+              <div class="col-6 text-center footerLink">
+                  <p>For all other inquiries:</p>
+                  <h3><a href="mailto:name@email.com">rachel@jackofallfades.co</a></h3>
+                  <br>
+                  <img src="/img/Barbers-Chair-25-white.png" width="90" height="90" alt="">
+              </div>
+              <div class="col footerLink text-center">
+                  <h5>Social</h5>
+                      <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                      <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+                      <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                      <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+              </div>
+          </div>
+      </div>
+  </footer>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
