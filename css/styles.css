@@ -166,13 +166,13 @@ a:hover, a:active, a:link, a:visited {
 
 .card {
     font-family: 'Special Elite', cursive;
-    background-color: wheat;
+    background-color: #c4a56c;
     font-weight: bolder;
     border: 1px solid;
-    border-color: wheat;
+    border-color: #c4a56c;
 
 }
 .card-header {
     background-color: black;
-    color: wheat;
+    color: #c4a56c;
 }
