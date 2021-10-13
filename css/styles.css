@@ -20,18 +20,9 @@
     background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-lg.jpg);
     height: 400px;
     background-size: cover;
-    background-position-y: center;
+    background-position: center;
     margin: 0;
     
-}
-
-#jumbotron-title {
-    font-family: 'Fleur De Leah', cursive;
-    font-size: 6vw;
-    color: whitesmoke;
-    text-shadow: 5px 2px black;
-    text-align: center;
-    padding-top: 5%;
 }
 
 .section-1 {
@@ -57,25 +48,30 @@
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    height: 100vh;
 }
 
 .sectionContent {
     background-color: black;
     max-width: 100%;
-    height: 800px;
+    height: auto;
 }
 
 .footer {
     max-width: 100%;
-    height: 25vh;
+    height: 100%;
     background-color: black;
 }
 .footerLink {
     font-family: 'Special Elite', cursive;
-    font-size: 20px;
+    font-weight: bold;
     color: whitesmoke;
-    
+    text-align: center;
+}
+
+@media screen and (min-width: 576px) {
+    .footerLink {
+        text-align: left;
+    }
 }
 
 a:hover, a:active, a:link, a:visited {
@@ -164,15 +160,28 @@ a:hover, a:active, a:link, a:visited {
     text-shadow: 5px 1px black;
 }
 
-.card {
+.cards {
     font-family: 'Special Elite', cursive;
-    background-color: #c4a56c;
+    color: black;
+    background-color: #e7c9a9;
     font-weight: bolder;
     border: 1px solid;
-    border-color: #c4a56c;
+    border-color: #e7c9a9;
 
 }
-.card-header {
+.cards-header {
     background-color: black;
-    color: #c4a56c;
+    color: #e7c9a9;
 }
+
+.beardCard {
+    width: 100%;
+    height: auto;
+}
+
+.bannerCard {
+    font-family: 'Codystar', cursive;
+    background-color: black;
+    color: whitesmoke;;
+}
+

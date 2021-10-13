@@ -2,23 +2,38 @@
 <html lang="en">
   <head>
     <!--Required Meta tags always come first-->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!--Bootstrap CSS-->
     <link rel="icon" type="image/png" href="/img/Barbers-Chair-25-white.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="/css/styles.css" />
 
     <title>Jack of All Fades</title>
-</head>
+  </head>
 
   <body>
     <div class="modal fade" id="bookFlow" tabindex="-1" role="dialog">
@@ -35,7 +50,12 @@
             </button>
           </div>
           <div class="modal-body">
-              <iframe src="https://squareup.com/appointments/book/4l2xlvamig0bve/L8V09880STVFH/start" frameborder="0" width="96%" height="500px"></iframe>
+            <iframe
+              src="https://squareup.com/appointments/book/4l2xlvamig0bve/L8V09880STVFH/start"
+              frameborder="0"
+              width="96%"
+              height="500px"
+            ></iframe>
           </div>
           <div class="modal-footer">
             <button
@@ -51,20 +71,27 @@
     </div>
 
     <header class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 id="jumbotron-title">Jack of All Fades</h1>
-          </div>
+      <section class="container h-100">
+        <div
+          class="
+            d-flex
+            justify-content-center
+            align-items-center
+            flex-column
+            text-center
+            h-100
+          "
+        >
+          <h1 class="main-title">Jack of All Fades</h1>
+          <button
+            class="btn btn-danger"
+            data-toggle="modal"
+            data-target="#bookFlow"
+          >
+            Book Now
+          </button>
         </div>
-        <div class="row">
-            <div class="col text-center">
-                <button class="btn btn-danger" data-toggle="modal" data-target="#bookFlow">
-                    Book Now
-                  </button>
-            </div> 
-        </div>
-      </div>
+      </section>
     </header>
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
@@ -109,36 +136,59 @@
       Book Now
     </button>
 
+    <img src="/img/beardedclear.png" alt="" />
+
     <!--STATIC FOOTER-->
     <footer class="footer">
       <div class="container">
-          <div class="row d-flex justify-content-center align-items-center">
-              <div class="col-2 col-sm-2 offset-1">
-                      <ul class="list-unstyled footerLink">
-                          <br>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="services.html">Services</a></li>
-                          <li><a href="gallery.html">Gallery</a></li>
-                          <li><a href="aboutus.html">About</a></li>
-                          <li><a href="contact.html">Contact</a></li>
-                      </ul>
-              </div>
-              <div class="col-6 text-center footerLink">
-                  <p>For all other inquiries:</p>
-                  <h3><a href="mailto:name@email.com">rachel@jackofallfades.co</a></h3>
-                  <br>
-                  <img src="/img/Barbers-Chair-25-white.png" width="90" height="90" alt="">
-              </div>
-              <div class="col footerLink text-center">
-                  <h5>Social</h5>
-                      <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                      <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                      <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                      <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
-              </div>
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-12 col-sm-3">
+            <ul class="list-unstyled footerLink">
+              <br />
+              <li><a href="#">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="aboutus.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
           </div>
+          <div class="col-sm-6 col-12 text-center footerLink">
+            <p>For all other inquiries:</p>
+            <h4>
+              <a href="mailto:name@email.com">rachel@jackofallfades.co</a>
+            </h4>
+            <br />
+            <img
+              src="/img/Barbers-Chair-25-white.png"
+              width="90"
+              height="90"
+              alt=""
+            />
+          </div>
+          <div class="col-12 col-sm-3 mt-2 footerLink text-center">
+            <h5>Social</h5>
+            <a
+              class="btn btn-social-icon btn-instagram"
+              href="http://instagram.com/"
+              ><i class="fa fa-instagram"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-facebook"
+              href="http://facebook.com/"
+              ><i class="fa fa-facebook"></i
+            ></a>
+            <a
+              class="btn btn-social-icon btn-twitter"
+              href="http://twitter.com/"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a class="btn btn-social-icon btn-google" href="http://youtube.com/"
+              ><i class="fa fa-youtube"></i
+            ></a>
+          </div>
+        </div>
       </div>
-  </footer>
+    </footer>
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
