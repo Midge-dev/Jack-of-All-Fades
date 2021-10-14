@@ -1,17 +1,25 @@
+$sectionColor: black;
+$cardColor: #e7c9a9;
+$fontColor: whitesmoke;
+
+// main-cursive
+$fontOne: 'Fleur De Leah', cursive;
+// type-writer
+$fontTwo: 'Special Elite', cursive; 
+// dot letters
+$fontThree: 'Codystar', cursive;
+// impact style text
+font-family: 'Bebas Neue', cursive;
+
 *{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-} 
+}
 
 .navbar {
     background-color: black;
     
-}
-.nav-title {
-    font-family: 'Fleur De Leah', cursive;
-    color: white;
-    font-size: 200%;
 }
 
 .jumbotron {
@@ -20,26 +28,10 @@
     background-size: cover;
     background-position: center;
     margin: 0;
-    
 }
 
-.section-1 {
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    height: 100vh;
-    background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
-    background-attachment: fixed;
-}
-
- #titleContainer {
+#titleContainer {
     min-height: 100vh;
-} 
-
-
-.section-3 {
-    background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
-    background-attachment: fixed;
 }
 
 .section {
@@ -54,18 +46,40 @@
     height: auto;
 }
 
+.section-1 {
+    background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
+    background-attachment: fixed;
+}
+
+
+
+.section-3 {
+    background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+    background-attachment: fixed;
+}
+
+// .section {
+//     background-size: cover;
+//     background-position: center;
+//     max-width: 100%;
+// }
+
+// .sectionContent {
+//     background-color: black;
+//     max-width: 100%;
+//     height: auto;
+// }
+
 .footer {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     background-color: black;
-    padding: 30px;
 }
 .footerLink {
     font-family: 'Special Elite', cursive;
     font-weight: bold;
     color: whitesmoke;
     text-align: center;
-    font-size: x-large;
 }
 
 @media screen and (min-width: 576px) {
@@ -74,9 +88,13 @@
     }
 }
 
-a:hover, a:active, a:link, a:visited, .btn-social-icon {
+a:hover, a:active, a:link, a:visited {
     color:whitesmoke;
     text-decoration: none;
+  }
+
+  .btn-social-icon {
+      color: whitesmoke;
   }
 
 .section-5 {
@@ -119,6 +137,17 @@ a:hover, a:active, a:link, a:visited, .btn-social-icon {
     .main-title {
         font-size: 8vw;
     }
+}
+
+.nav-title {
+    font-family: 'Fleur De Leah', cursive;
+    color: white;
+    font-size: 200%;
+}
+
+
+.navbar-nav {
+    padding-top: 10px;
 }
 
 .titles {
@@ -173,7 +202,6 @@ a:hover, a:active, a:link, a:visited, .btn-social-icon {
 
 .bannerBody {
     font-family: 'Bebas Neue', cursive;
-    color: whitesmoke;
 }
 
 .map-responsive{
