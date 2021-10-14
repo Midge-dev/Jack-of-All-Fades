@@ -1,200 +1,203 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-} 
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
 
 .navbar {
-    background-color: black;
-    
+	background-color: black;
 }
 .nav-title {
-    font-family: 'Fleur De Leah', cursive;
-    color: white;
-    font-size: 200%;
+	font-family: "Fleur De Leah", cursive;
+	color: white;
+	font-size: 200%;
 }
 
 .jumbotron {
-    background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-lg.jpg);
-    height: 400px;
-    background-size: cover;
-    background-position: center;
-    margin: 0;
-    
+	background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash-lg.jpg);
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	margin: 0;
 }
 
 .section-1 {
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    height: 100vh;
-    background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
-    background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	height: 100vh;
+	background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
+	background-attachment: fixed;
 }
 
- #titleContainer {
-    min-height: 100vh;
-} 
-
+#titleContainer {
+	min-height: 100vh;
+}
 
 .section-3 {
-    background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
-    background-attachment: fixed;
+	background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
+	background-attachment: fixed;
 }
 
 .section {
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
 }
 
 .sectionContent {
-    background-color: black;
-    max-width: 100%;
-    height: auto;
+	background-color: black;
+	max-width: 100%;
+	height: auto;
 }
 
 .footer {
-    max-width: 100%;
-    height: auto;
-    background-color: black;
-    padding: 30px;
+	max-width: 100%;
+	height: auto;
+	background-color: black;
+	padding: 30px;
 }
 .footerLink {
-    font-family: 'Special Elite', cursive;
-    font-weight: bold;
-    color: whitesmoke;
-    text-align: center;
-    font-size: x-large;
+	font-family: "Special Elite", cursive;
+	font-weight: bold;
+	color: whitesmoke;
+	text-align: center;
+	font-size: x-large;
 }
 
 @media screen and (min-width: 576px) {
-    .footerLink {
-        text-align: left;
-    }
+	.footerLink {
+		text-align: left;
+	}
 }
 
-a:hover, a:active, a:link, a:visited, .btn-social-icon {
-    color:whitesmoke;
-    text-decoration: none;
-  }
+a:hover,
+a:active,
+a:link,
+a:visited,
+.btn-social-icon {
+	color: whitesmoke;
+	text-decoration: none;
+}
 
 .section-5 {
-    background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg); 
-    background-attachment: fixed;
+	background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg);
+	background-attachment: fixed;
 }
 
 @media (max-width: 2500px) {
-    .section-5 {
-        background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-lg.jpg);
-        background-size: cover;
-        background-position: center;
-    }
+	.section-5 {
+		background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-lg.jpg);
+		background-size: cover;
+		background-position: center;
+	}
 }
 
 @media (max-width: 800px) {
-    .section-5 {
-        background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-md.jpg);
-        background-size: cover;
-        background-position: center;
-    }
+	.section-5 {
+		background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-md.jpg);
+		background-size: cover;
+		background-position: center;
+	}
 }
 
 @media (max-width: 500px) {
-    .section-5 {
-        background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-sm.jpg);
-        background-size: cover;
-        background-position: center;
-    }
+	.section-5 {
+		background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-sm.jpg);
+		background-size: cover;
+		background-position: center;
+	}
 }
 
- .main-title {
-    font-family: 'Fleur De Leah', cursive;
-    font-size: 36px;
-    color: whitesmoke;
-    text-shadow: 5px 2px black;
-} 
+.main-title {
+	font-family: "Fleur De Leah", cursive;
+	font-size: 36px;
+	color: whitesmoke;
+	text-shadow: 5px 2px black;
+}
 
 @media (min-width: 500px) {
-    .main-title {
-        font-size: 8vw;
-    }
+	.main-title {
+		font-size: 8vw;
+	}
 }
 
 .titles {
-    color: whitesmoke;
-    text-shadow: 5px 1px black;
-    font-family: 'Fleur De Leah', cursive;
-    font-size: 36px;
-
+	color: whitesmoke;
+	text-shadow: 5px 1px black;
+	font-family: "Fleur De Leah", cursive;
+	font-size: 36px;
 }
 
 @media (min-width: 500px) {
-    .titles {
-        font-size: 100px;
-
-    }
+	.titles {
+		font-size: 100px;
+	}
 }
 
 .section div {
-    min-height: 100vh;
+	min-height: 100vh;
 }
 
 .thirdTitle {
-    font-family: 'Fleur De Leah', cursive;
-    color: whitesmoke;
-    text-shadow: 5px 1px black;
+	font-family: "Fleur De Leah", cursive;
+	color: whitesmoke;
+	text-shadow: 5px 1px black;
 }
 
 .cards {
-    font-family: 'Special Elite', cursive;
-    color: black;
-    background-color: #e7c9a9;
-    font-weight: bolder;
-    border: 1px solid;
-    border-color: #e7c9a9;
-
+	font-family: "Special Elite", cursive;
+	color: black;
+	background-color: #e7c9a9;
+	font-weight: bolder;
+	border: 1px solid;
+	border-color: #e7c9a9;
 }
 .cards-header {
-    background-color: black;
-    color: #e7c9a9;
+	background-color: black;
+	color: #e7c9a9;
 }
 
 .beardCard {
-    width: 100%;
-    height: auto;
+	width: 100%;
+	height: auto;
 }
 
 .bannerCard {
-    font-family: 'Codystar', cursive;
-    background-color: black;
-    color: whitesmoke;
+	font-family: "Codystar", cursive;
+	background-color: black;
+	color: whitesmoke;
 }
 
 .bannerBody {
-    font-family: 'Bebas Neue', cursive;
-    color: whitesmoke;
+	font-family: "Bebas Neue", cursive;
+	color: whitesmoke;
 }
 
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;
-    height:0;
+.map-responsive {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
 }
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+.map-responsive iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 .vegasCard {
-    width: 50%;
-    height: auto;
+	width: 50%;
+	height: auto;
 }
 
 .rowPad {
-    padding: 20px;
+	padding: 20px;
+}
+
+.gMap {
+    width: 100%;
+    height: 100%;
 }
