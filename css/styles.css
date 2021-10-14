@@ -194,3 +194,7 @@ a:hover, a:active, a:link, a:visited, .btn-social-icon {
     width: 50%;
     height: auto;
 }
+
+.rowPad {
+    padding: 20px;
+}
