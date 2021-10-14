@@ -122,6 +122,18 @@ a:visited,
 	}
 }
 
+@media (min-width: 2112px) {
+	.main-title {
+		font-size: 6vw;
+	}
+}
+
+@media (min-width: 2816px) {
+	.main-title {
+		font-size: 4vw;
+	}
+}
+
 .titles {
 	color: whitesmoke;
 	text-shadow: 5px 1px black;
@@ -197,7 +209,6 @@ a:visited,
 	padding: 20px;
 }
 
-.gMap {
-    width: 100%;
-    height: 100%;
+.containerColor {
+    background-color: black;
 }
