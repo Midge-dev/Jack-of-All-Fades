@@ -21,6 +21,7 @@
 	margin: 0;
 }
 
+
 .section-1 {
 	background-size: cover;
 	background-position: center;
@@ -217,3 +218,8 @@ a:visited,
 .containerColor {
     background-color: black;
 }
+
+.row-content {
+	padding: 50px 0;
+	border-bottom: 1px ridge;
+	min-height: 200px; }
