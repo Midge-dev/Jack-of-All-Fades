@@ -76,16 +76,17 @@
 			</div>
 		</div>
 
-		<div class="container-fluid section-1 h">
+		<div class="container-fluid section-1 rellax" data-rellax-speed="1">
 			<div
 				class="d-flex justify-content-center align-items-center flex-column"
 				id="titleContainer"
 			>
 				<div class="text-center">
-					<h1 class="main-title">Jack of All Fades</h1>
+					<h1 class="main-title rellax" data-rellax-speed="9">Jack of All Fades</h1>
 					<button
 						type="button"
-						class="btn btn-lg btn-danger main-btn"
+						class="btn btn-lg btn-danger main-btn rellax"
+						data-rellax-speed="6"
 						data-toggle="modal"
 						aria-pressed="false"
 						data-target="#bookFlow"
@@ -176,20 +177,23 @@
 			</div>
 		</div>
 
-		<div class="section-3 section">
-			<div class="container">
-				<div
-					class="
-						d-flex
-						justify-content-center
-						align-items-center
-						justify-content-md-start
-					"
-				>
-					<h1 class="titles text-center">Precision Styling</h1>
+		<section>
+			<div class="section-3 section rellax" data-rellax-speed="1">
+				<div class="container">
+					<!-- <div
+							class="
+							d-flex
+							<!-- justify-content-md-end
+							align-items-center
+							justify-content-md-start
+						"
+					> -->
+					<div class="d-flex align-items-end">
+						<h1 class="titles text-center rellax" data-rellax-speed="5">Precision Styling</h1>
+					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<div class="container sectionContent">
 			<div class="row d-flex justify-content-center mt-4 mb-4">
@@ -226,7 +230,7 @@
 			</div>
 		</div>
 
-		<div class="section-5 section">
+		<div class="section-5 section rellax" data-rellax-speed="1">
 			<div class="container">
 				<div class="d-flex justify-content-center align-items-center">
 					<h1 class="titles text-center">10 years in the making</h1>
@@ -300,5 +304,12 @@
 			integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
 			crossorigin="anonymous"
 		></script>
+    view source
+1
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+<script>
+  // Accepts any class name
+  var rellax = new Rellax('.rellax');
+</script>
 	</body>
 </html>
