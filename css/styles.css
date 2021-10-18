@@ -26,7 +26,8 @@
 .section-1 {
 	background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
 	background-attachment: fixed;
-	background-size: 100% auto;
+	background-size: cover;
+
 }
 
 #titleContainer {
@@ -92,7 +93,7 @@ a:visited,
 .section-5 {
 	background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg);
 	background-attachment: fixed;
-	background-size: 100% auto;
+	background-size: cover;
 }
 
 /* @media (max-width: 2500px) {
@@ -213,4 +214,19 @@ a:visited,
 .row-content {
 	padding: 50px 0;
 	border-bottom: 1px ridge;
-	min-height: 200px; }
+	min-height: 200px;
+}
+
+.img-box {
+	height: 30vh;
+	width: 100%;
+	margin: 10px;
+	background-image: url(/img/james-walsh-QZUzkCxDIoU-unsplash.jpg);
+	background-size: cover;
+	background-position-y: 73% ;
+	background-position-x: right;
+}
+
+.signature {
+	margin-left: 20%;
+}
