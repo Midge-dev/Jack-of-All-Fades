@@ -30,6 +30,8 @@
 }
 .section-2 {
 	transform: translateY(-10px);
+	position: relative;
+	z-index: 9;
 }
 @media (max-width: 576px) {
 	.section-2 {
@@ -45,6 +47,8 @@
 
 .section-4 {
 	transform: translateY(50px);
+	position: relative;
+	z-index: 9;
 }
 .section-5 {
 	background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg);
