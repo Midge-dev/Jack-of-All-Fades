@@ -36,7 +36,6 @@
 }
 
 .section-3 {
-	/* background-size: cover; */
 	background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
 	background-attachment: fixed;
 	background-size: cover;
@@ -68,11 +67,11 @@
 	font-size: x-large;
 }
 
-@media screen and (min-width: 576px) {
+/* @media screen and (min-width: 576px) {
 	.footerLink {
 		text-align: left;
 	}
-}
+} */
 
 a, a:hover {
 	color: inherit;
@@ -96,30 +95,6 @@ a:visited,
 	background-attachment: fixed;
 	background-size: cover;
 }
-
-/* @media (max-width: 2500px) {
-	.section-5 {
-		background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-lg.jpg);
-		background-size: cover;
-		background-position: center;
-	}
-}
-
-@media (max-width: 800px) {
-	.section-5 {
-		background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-md.jpg);
-		background-size: cover;
-		background-position: center;
-	}
-}
-
-@media (max-width: 500px) {
-	.section-5 {
-		background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash-sm.jpg);
-		background-size: cover;
-		background-position: center;
-	}
-} */
 
 .main-title {
 	font-family: "Fleur De Leah", cursive;
@@ -226,4 +201,9 @@ a:visited,
 	background-size: cover;
 	background-position-y: 73% ;
 	background-position-x: right;
+}
+
+imgs {
+	width: 3024px;
+	height: 4032px;
 }
