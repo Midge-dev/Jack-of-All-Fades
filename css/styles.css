@@ -42,7 +42,7 @@
 	background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
 	background-attachment: fixed;
 	background-size: cover;
-	transform: translateY(125px);
+	transform: translateY(50px);
 }
 
 .section-4 {
@@ -54,7 +54,7 @@
 	background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg);
 	background-attachment: fixed;
 	background-size: cover;
-	transform: translateY(275px);
+	transform: translateY(75px);
 }
 .section {
 	background-position: center;
