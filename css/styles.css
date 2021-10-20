@@ -28,17 +28,23 @@
 #titleContainer {
 	min-height: 100vh;
 }
+.section-2 {
+	transform: translateY(50px);
+}
 .section-3 {
 	background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
 	background-attachment: fixed;
 	background-size: cover;
-	transform: translateY(100px);
+	transform: translateY(125px);
+}
+.section-4 {
+	transform: translateY(50px);
 }
 .section-5 {
 	background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg);
 	background-attachment: fixed;
 	background-size: cover;
-	transform: translateY(200px);
+	transform: translateY(275px);
 }
 .section {
 	background-position: center;
@@ -51,7 +57,7 @@
 }
 .footer {
 	max-width: 100%;
-	height: auto;
+	height: 100%;
 	background-color: black;
 	padding: 30px;
 }
