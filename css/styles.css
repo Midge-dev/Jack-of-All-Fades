@@ -5,6 +5,7 @@
 }
 .navbar {
 	background-color: black;
+	margin: 0;
 }
 .nav-title {
 	font-family: "Fleur De Leah", cursive;
@@ -41,17 +42,18 @@
 	background-size: cover;
 	height: 100vh;
 	width: 100vw;
-	z-index: -9;
+	z-index: -3;
 }
 #titleContainer {
 	min-height: 100vh;
 }
-/* .section-2 {
+.section-2 {
 	
 	transform: translateY(-10px);
 	position: relative;
 	z-index: 9;
-} */
+	margin-top: ;
+} 
 /* @media (max-width: 576px) {
 	.section-2 {
 		margin-bottom: 6vh;
@@ -65,14 +67,12 @@
 	background-size: cover;
 	height: 100vh;
 	width: 100vw;
-	z-index: -8;
-	box
+	z-index:-2;
 }
 
 .section-4 {
-	/* transform: translateY(50px);
+	transform: translateY(50px);
 	position: relative;
-	z-index: 9; */
 }
 .section-5 {
 	background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg);
@@ -81,7 +81,7 @@
 	background-size: cover;
 	height: 100vh;
 	width: 100vw;
-	background-position: center;
+	z-index: -1;
 }
 .section {
 	/* background-position: center;
@@ -96,6 +96,7 @@
 	height: 100%;
 	background-color: black;
 	padding: 30px;
+	position: relative;
 }
 @media (min-width: 576px) {
 	.footer {
