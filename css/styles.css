@@ -19,46 +19,74 @@
 	background-size: cover;
 	margin: 0;
 }
+
+.bg {
+	
+}
+
+.contnet {
+	position: absolute;
+	margin-top: 5rem;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 80%;
+
+}
+
 .section-1 {
 	background-image: url(/img/andrea-donato-MNu0n-3BIKs-unsplash.jpg);
-	background-attachment: fixed;
-	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
 	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	z-index: -9;
 }
 #titleContainer {
 	min-height: 100vh;
 }
-.section-2 {
+/* .section-2 {
+	
 	transform: translateY(-10px);
 	position: relative;
 	z-index: 9;
-}
-@media (max-width: 576px) {
+} */
+/* @media (max-width: 576px) {
 	.section-2 {
 		margin-bottom: 6vh;
 	}
-}
+} */ 
 .section-3 {
 	background-image: url(/img/allef-vinicius-IvQeAVeJULw-unsplash.jpg);
-	background-attachment: fixed;
+	background-repeat: no-repeat;
+	position: fixed;
+	background-position: center;
 	background-size: cover;
-	transform: translateY(50px);
+	height: 100vh;
+	width: 100vw;
+	z-index: -8;
+	box
 }
 
 .section-4 {
-	transform: translateY(50px);
+	/* transform: translateY(50px);
 	position: relative;
-	z-index: 9;
+	z-index: 9; */
 }
 .section-5 {
 	background-image: url(/img/chris-knight-_H1XXY96pqw-unsplash.jpg);
-	background-attachment: fixed;
+	position: fixed;
+	background-position: center;
 	background-size: cover;
-	transform: translateY(75px);
+	height: 100vh;
+	width: 100vw;
+	background-position: center;
 }
 .section {
-	background-position: center;
+	/* background-position: center;
 	max-width: 100%;
+	background-color: black; */
 }
 .sectionContent {
 	background-color: black;

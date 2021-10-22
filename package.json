@@ -10,7 +10,8 @@
   "author": "Sean C. Midgley a.k.a. Midge",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "parcel": "^2.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -19,7 +20,6 @@
     "font-awesome": "^4.7.0",
     "install": "^0.13.0",
     "jquery": "^3.5.1",
-    "parcel": "^2.0.0-rc.0",
     "popper.js": "^1.16.1",
     "rellax": "^1.12.1"
   }
